@@ -1,23 +1,17 @@
 ---
 layout: page
-title: Home
-description: 방문을 환영합니다. 사소한 개인 노트들이지만 혹시나 도움이 되면 참 좋겠네요 ^~^
+title: 랜딩페이지
+description: 지킬 베이스 블로그 공간입니다.
 background: '/img/bg-index.jpg'
 ---
 
-토막 지식글이나 짧은 기록을 남기기 위해서 마련한 블로그 입니다. 
+지킬을 설치하고, 바로 블로그처럼 쓸 수 있을 직전 단계의 베이스 저장용으로 만든 곳.
 
-컴퓨터, IT, 개발관련 글들을 남기고 싶긴한데 생각보단 불편, 네이버나 티스토리가 괜스레 편하게 느껴지네요. (^///^)
+지킬 + Clean 테마 (부트스트랩 포함) 를 활용하여 만들었습니다.
 
-## 주인장
-크게 적을 내용도 없네요. 그래서 중간중간 흔적 남겨놓은 개인 정보를 흘리고 다닌 사이트를 몇개로 대신합니다.
+물론 약간의 수정들이 있습니다. 필요할 때 마다 퍼가서 쭉쭉 사이트 하나씩 만들면 될 듯~~
 
-- [링크드인](https://www.linkedin.com/in/bjnhur/){:target="_blank"}
-- [티스토리 블로그](https://wiznxt.tistory.com/){:target="_blank"}
-- [GitHub](https://github.com/bjnhur){:target="_blank"}
-- [Twitter](https://twitter.com/bongjunhur){:target="_blank"}
-
-## Link
+## 글 보러 가기
 - <a href="{{"/posts" | relative_url }}">전체 글 보기</a>
 - <a href="{{"/category" | relative_url }}">목록 전체 보기</a>
 - <a href="{{"/tags" | relative_url }}">태그 전체 보기</a>
