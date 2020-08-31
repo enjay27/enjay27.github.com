@@ -1,9 +1,9 @@
 # Setup
 title:            지킬 베이스 - 오늘을 살자
-url:              https://bjnhur.github.io/jekyll/
+url:              https://bjnhur.github.io
 paginate:         5
 paginate_path:    "/posts/page:num/"
-baseurl: ""
+baseurl:          "/jekyll"
 #permalink:       pretty
 permalink:        none
 timezone:         Asia/Seoul
