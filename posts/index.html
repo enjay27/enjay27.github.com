@@ -42,7 +42,7 @@ background: '/img/bg-post.jpg'
         <a class="page-link" href="#">{{ page }} <span class="sr-only">(current)</span></a>
       </li>
     {% elsif page == 1 %}
-      <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a></li>
+      <li class="page-item"><a class="page-link" href="{{ site.paginate_path | relative_url | replace: '/page:num', ''}}">{{ page }}</a></li>
     {% else %}
       <li class="page-item"><a class="page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a></li>
     {% endif %}
