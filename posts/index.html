@@ -7,7 +7,7 @@ background: '/img/bg-post.jpg'
 {% for post in paginator.posts %}
 
 <article class="post-preview">
-  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+  <a href="{{ post.url | replace: '//', '/' }}">
     <h2 class="post-title">{{ post.title | escape }}</h2>
     {% if post.subtitle %}
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
@@ -28,7 +28,7 @@ background: '/img/bg-post.jpg'
   <ul class="pagination">
     {% if paginator.previous_page %}
     <li class="page-item">
-      <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" tabindex="-1"><span>&laquo; Prev</span></a>
+      <a class="page-link" href="{{ paginator.previous_page_path | replace: '//', '/' }}" tabindex="-1"><span>&laquo; Prev</span></a>
     </li>
     {% else %}
     <li class="page-item disabled">
@@ -42,9 +42,9 @@ background: '/img/bg-post.jpg'
         <a class="page-link" href="#">{{ page }} <span class="sr-only">(current)</span></a>
       </li>
     {% elsif page == 1 %}
-      <li class="page-item"><a class="page-link" href="{{ site.paginate_path | relative_url | replace: '/page:num', ''}}">{{ page }}</a></li>
+      <li class="page-item"><a class="page-link" href="{{ site.paginate_path | replace: '/page:num', ''}}">{{ page }}</a></li>
     {% else %}
-      <li class="page-item"><a class="page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a></li>
+      <li class="page-item"><a class="page-link" href="{{ site.paginate_path | replace: ':num', page }}">{{ page }}</a></li>
     {% endif %}
   {% endfor %}
   
