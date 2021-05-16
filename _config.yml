@@ -1,14 +1,14 @@
 # Setup
-title:            지킬 베이스 - 오늘을 살자
-url:              https://bjnhur.github.io
+title:            Today I Learned
+url:              https://enjay27.github.io
 paginate:         5
 paginate_path:    "/posts/page:num/"
-baseurl:          "/jekyll"
+baseurl:          "/enjay27.github.com"
 #permalink:       pretty
 permalink:        none
 timezone:         Asia/Seoul
 #locale : "ko-KR"
-description:      "이것 저것 알게되는 지식을 끄적이는 블로그"
+description:      "Today I Learned"
 
 sass:
   sass_dir: _sass
@@ -23,16 +23,16 @@ highlighter: rouge
 
 # Specify the author for blog posts
 author:
-  name: Bongjun Hur
-  url: https://twitter.com/bongjunhur
-  email: bjnhur@gmail.com
+  name: enjay27
+  url:
+  email: kdkm2002@gmail.com
 
 # Custom vars
 version: 3.0.0
 googleads: true # true / false
 
 github:
-  repository_edit_url: "https://github.com/bjnhur/jekyll/edit/master/"
+  repository_edit_url: "https://github.com/enjay27/enjay27.github.com/edit/master/"
 
 # Navbar page list
 nav:
