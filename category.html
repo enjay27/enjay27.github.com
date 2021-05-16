@@ -27,7 +27,7 @@ permalink: /category/
         {{ post.date | date: "%b %-d, %Y" }}
       </small>
       <h4>
-      <a href="{{ site.url }}{{ post.url }}">{{ post.title | escape }}</a>
+      <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a>
       </h4>
     </li>
     {% endif %}{% endfor %}

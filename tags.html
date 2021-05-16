@@ -13,7 +13,7 @@ permalink : /tags/
   {% capture tag_size %}{{tag|last|size}}{% endcapture %}
   <!-- font_size 변수 지정: 태그해당글숫자/전체글숫자 * 20 + 14 -->
   {% capture font_size %}{{tag_size | times: 20 | divided_by:site.posts.size | plus: 14 }}{% endcapture %}
-  <li><a href="#{{tag_name}}" style="font-size:20px">{{ tag_name }}<span>({{ tag_size }})</span></a></li>
+  <li><a href="#{{tag_name}}" style="font-size:15px">{{ tag_name }}<span>({{ tag_size }})</span></a></li>
   {% endfor %}
 </ul>
 <div>
@@ -32,7 +32,7 @@ permalink : /tags/
                     {{ post.date | date: "%b %-d, %Y" }}
                   </small>
                   <h4>
-                    <a href="{{ site.url }}{{ post.url }}">{{ post.title | escape }}</a>
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | escape }}</a>
                   </h4>
                 </li>
               {% endfor %}
