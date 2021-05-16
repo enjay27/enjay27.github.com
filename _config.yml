@@ -32,7 +32,7 @@ version: 3.0.0
 googleads: true # true / false
 
 github:
-  repository_edit_url: "https://github.com/enjay27/enjay27.github.com/edit/master/"
+  repository_edit_url: "https://github.com/enjay27/jekyll/edit/master/"
 
 # Navbar page list
 nav:
