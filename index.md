@@ -14,6 +14,6 @@ background: '/img/bg-index.jpg'
 이 페이지의 깃허브 저장소 공간은 [여기 - https://github.com/bjnhur/jekyll](https://github.com/bjnhur/jekyll){:target="_blank"} 입니다.
 
 ## 글 보러 가기
-- <a href="{{"/posts"}}">전체 글 보기</a>
-- <a href="{{"/category"}}">목록 전체 보기</a>
-- <a href="{{"/tags"}}">태그 전체 보기</a>
+- <a href="/posts">전체 글 보기</a>
+- <a href="/category">목록 전체 보기</a>
+- <a href="/tags">태그 전체 보기</a>
